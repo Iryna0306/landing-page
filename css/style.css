@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 20px;
+    color: #424242;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    font-family: Lato;
+}
+
+.container {
+   width: 1414px; 
+   margin: 0 auto;
+
+}
+
+/* ------------------------------------- */
+
+.header {
+    left: 0;
+    top: 0;
+}
+.header-container {
+    display: flex;
+    flex-wrap: wrap; 
+    min-height: 86px;
+    align-items: center;
+}
+
+/* .header-logo {
+} */
+
+.header-menu {
+    margin: 0px 0px 0px 172px;
+}
+
+/* .menu {
+} */
+.menu-list {
+    display: flex;
+}
+.menu-item:not(:last-child){
+    margin: 0px 72px 0px 0px;
+}
+.menu-link {
+    color: #292929;
+    line-height: 1.2;
+}
+.header-btn {
+    margin: 0px 0px 0px 284px;
+}
+/* .button {
+} */
+.button-span {
+    line-height: 1.2;
+    color: #000;
+}
+.button-button {
+    margin: 0px 0px 0px 34px;
+    color: #fff;
+    font-size: inherit;
+    background-color: #01996D;
+    padding: 14px 50px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
