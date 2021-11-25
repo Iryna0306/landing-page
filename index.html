@@ -30,13 +30,45 @@
                             <a href="#" class="menu-link">Pricing</a>
                         </li>
                     </ul>
+                    <div class="header-btn button">
+                        <span class="button-span">Sing in</span>
+                        <button class="button-button">Start Trial</button>
+                    </div>
                 </nav>
-                <div class="header-btn button">
-                    <span class="button-span">Sing in</span>
-                    <button class="button-button">Start Trial</button>
-                </div>
+                <span class="hamb">☰</span>
+                <span class="overlay"></span>
             </div>
         </header>
-    </div>   
+        <main class="page">
+            <div class="page-main-block main-block">
+                <div class="main-block-container">
+                    <h1 class="mine-title">Be aware, Manage well.</h1>
+                    <div class="mine-text">Everyone experiences stress in different ways. Let Alivio guide you, in a personalized journal experience, to overcome your stress.</div>
+                    <button class="button-button main-button">Find Your Way<button>
+                </div>
+                <div class="main-block-image pic">
+                    <img src="img/BG.png" alt="BG">
+                </div>
+            </div>
+        </main>
+    </div>  
+    <script>
+        $(function(){
+            $('.hamb').click(function(){
+                $('.header-menu').animate({
+                right: 0
+                });
+            $(this).hide();
+            $('.overlay').fadeIn();
+            });
+            $('.header-menu span, .overlay').click(function(){
+                $('.header-menu').animate({
+                right: -250
+            });
+            $('.hamb').show();
+            $('.overlay').fadeOut();
+            });
+        });
+    </script> 
 </body>
 </html>
