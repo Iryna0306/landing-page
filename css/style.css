@@ -54,7 +54,7 @@ body {
    box-sizing: content-box;
 }
 
-.pic {
+/* .pic {
     position: relative;
 }
 
@@ -65,7 +65,7 @@ body {
     top: 0;
     z-index: 50;
     object-fit: cover;
-}
+}  */
 
 /* -----HEADER-------------------------------- */
 
@@ -73,6 +73,7 @@ body {
     left: 0;
     top: 0;
 }
+
 .header-container {
     display: flex;
     min-height: 86px;
@@ -88,8 +89,6 @@ body {
     margin: 0px 0px 0px 172px;
 }
 
-
-
 .menu {
     padding: 5px 0px;
 }
@@ -104,9 +103,6 @@ body {
     margin: 0px 72px 0px 0px;
 }
 
-@media (max-width: 1199px) {
-
-}
 
 .menu-link {
     color: #292929;
@@ -138,7 +134,7 @@ body {
     cursor: pointer;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1279px) {
     .header-btn {
         margin: 0px 0px 0px 100px;
     }
@@ -149,7 +145,7 @@ body {
 
 .hamb {
     display: none;
-   }
+}
 
 @media (max-width: 1400px) {
     .header-menu {
@@ -199,7 +195,7 @@ body {
 	display: block;
 	font-size: 35px;
     margin-left: auto;
-}
+    }
 }
 
 /* -----MAIN---------------------------------------- */
@@ -217,9 +213,15 @@ body {
 }
 
 .main-block-container {
+    background: url(../img/BG.png) no-repeat center;
+}
+
+.main-block-body {
+    max-width: 1414px;
+    margin: auto;
     position: relative;
     z-index: 2;
-    padding: 174px 0px 400px 0px;
+    padding: 174px 15px 400px 15px;
 }
 
 .mine-title {
@@ -228,9 +230,14 @@ body {
     font-weight: 700;
     line-height: 113%;
     color: #01996D;
+    max-width: 440px;
 }
 
 .mine-text {
+    max-width: 420px;
+    margin: 30px 0px 18px 0px;
+    min-height: 120px;
+    line-height: 1.5;
 }
 
 .main-button {
@@ -238,13 +245,11 @@ body {
     margin: 0;
 }
 
-.main-block-image {
+/* .main-block-image {
     position:absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-}
+} */
 
-.pic {
-}
