@@ -49,7 +49,7 @@ body {
 
 .container {
    max-width: 1414px; 
-   padding: 0px 15px;
+   padding: 0px 14px;
    margin: 0 auto;
    box-sizing: content-box;
 }
@@ -72,12 +72,13 @@ body {
 .header {
     left: 0;
     top: 0;
+    border-bottom: 1px solid #D6D6D6;
 }
 
 .header-container {
     display: flex;
     min-height: 86px;
-    align-items: center;
+    align-items: center;  
 }
 
 .header-logo {
@@ -90,7 +91,7 @@ body {
 }
 
 .menu {
-    padding: 5px 0px;
+    padding: 6px 0px;
 }
 
 .menu-list {
@@ -124,7 +125,7 @@ body {
     line-height: 1.2;
     color: #000;
 }
-.button-button {
+.trial-button {
     margin: 0px 0px 0px 34px;
     color: #fff;
     font-size: inherit;
@@ -138,8 +139,8 @@ body {
     .header-btn {
         margin: 0px 0px 0px 100px;
     }
-    .button-button {
-        margin: 0px 0px 0px 15px;
+    .trial-button {
+        margin: 0px 0px 0px 14px;
     }
 }
 
@@ -171,26 +172,36 @@ body {
 		position: fixed;
 		top: 0;
 		right: -250px;
-		padding: 15px;
+		padding: 14px;
 		font-size: 25px;
-		z-index: 2;
+		z-index: 3;
 		color: #fff;
 	}
     .header-menu li {
 		margin-bottom: 20px;
 	}
+
+    .menu-link {
+        color: #fff;
+    }
+
 	.header-menu li:last-child {
 		margin-bottom: 0px;
 	}
-	.header-menu span {
-		display: block;
-		position: absolute;
-		top: -5px;
-		right: 10px;
-		font-size: 40px;
-		transform: rotate(45deg);
+
+	.button-span {
+        display: block;
+        margin-top: 40px;
+        margin-bottom: 6px;
+        margin-left: -26px;
+		font-size: 20px;
 		color: #fff;
 	}
+
+    .header-menu button {
+        margin-left: -100px;
+    }
+
 	.hamb {
 	display: block;
 	font-size: 35px;
@@ -214,6 +225,7 @@ body {
 
 .main-block-container {
     background: url(../img/BG.png) no-repeat center;
+    background-size: cover;
 }
 
 .main-block-body {
@@ -221,19 +233,44 @@ body {
     margin: auto;
     position: relative;
     z-index: 2;
-    padding: 174px 15px 400px 15px;
+    padding: 174px 0px 400px 0px;
 }
 
-.mine-title {
+@media (max-width: 1400px) {
+    .main-block-body {
+        padding: 174px 14px 400px 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-block-body {
+        padding: 30px 14px 40px 14px;
+        height: 500px;
+    }
+}
+
+@media (max-width: 280px) {
+    .main-block-body {
+        height: 550px;
+    }
+}
+
+.main-title {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 65px;
     font-weight: 700;
-    line-height: 113%;
+    line-height: 1.13;
     color: #01996D;
     max-width: 440px;
 }
 
-.mine-text {
+@media (max-width: 480px) {
+    .main-title {
+        font-size: 50px;
+    }
+}
+
+.main-text {
     max-width: 420px;
     margin: 30px 0px 18px 0px;
     min-height: 120px;
@@ -244,12 +281,4 @@ body {
     padding: 20px 50px;
     margin: 0;
 }
-
-/* .main-block-image {
-    position:absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-} */
 
