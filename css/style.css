@@ -45,6 +45,7 @@ body {
     font-family: Lato;
     display: flex;
     flex-direction: column;
+    
 }
 
 .container {
@@ -210,7 +211,7 @@ body {
 }
 
 /* -----MAIN---------------------------------------- */
-
+/* -----PAGE-MAIN-BLOCK----------------------------- */
 .page {
     flex: 1 1 auto;
 
@@ -282,3 +283,121 @@ body {
     margin: 0;
 }
 
+/* -----PAGE-WRAPPER-SERVICES---------------------- */
+
+.page-wrapper-services {
+    max-width: 1414px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.services-header-container {
+    display: flex;
+    min-width: 584px;
+}
+
+.services-header-mane {
+    font-size: 24px;
+    line-height: 1.57;
+}
+
+.services-header-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.57;
+    color: #01996D;
+    max-width: 584px;
+}
+
+.services-header-description {
+    line-height: 1.5;
+    margin-left: auto;
+    margin-top: 24px;
+    max-width: 656px;
+}
+
+.services-column-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.column-container {
+    max-width: 390px;
+}
+
+.column-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #000;
+    margin-top: 186px;
+    margin-left: 88px;
+    margin-bottom: 54px;
+    position: relative;
+}
+
+.title-2 {
+    margin-top: 474px;
+    margin-left: 76px;
+}
+
+.title-3 {
+    margin-top: 240px;
+    margin-left: 124px;
+}
+
+.title-1::before {
+    position: absolute;
+    content: '';
+    background: url(/img/01.svg) no-repeat;
+    width: 154px;
+    height: 224px;
+    margin-left: -88px;
+    margin-top: -50px;
+}
+
+.title-2::before {
+    position: absolute;
+    content: '';
+    background: url(/img/02.svg) no-repeat;
+    width: 158px;
+    height: 224px;
+    margin-left: -76px;
+    margin-top: -50px;
+}
+
+.title-3::before {
+    position: absolute;
+    content: '';
+    background: url(/img/03.svg) no-repeat;
+    width: 158px;
+    height: 224px;
+    margin-left: -124px;
+    margin-top: -50px;
+}
+
+.column-text {
+    line-height: 1.5;
+    max-width: 370px;
+    margin-bottom: 60px;
+}
+
+.monitor-image {
+    position: relative;
+    z-index: 1;
+}
+
+.monitor-image::before {
+    position: absolute;
+    content: '';
+    background: url(/img/monitor.svg) no-repeat;
+    width: 186px;
+    height: 156px;
+    margin-left: 206px;
+    margin-top: 224px;
+    z-index: 2;
+    border-radius: 4px 0px 4px 0px;
+}
