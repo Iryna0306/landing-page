@@ -279,15 +279,38 @@ body {
     margin-top: 150px;
 }
 
+@media (max-width: 1300px) {
+    .page-wrapper-services {
+        margin-top: 50px;
+    }
+
+}
+
+
+
+
 .services-header-container {
     display: flex;
     flex-wrap: wrap;
     min-width: 584px;
 }
 
+@media (max-width: 1300px) {
+    .services-header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 .services-header-mane {
     font-size: 24px;
     line-height: 1.57;
+}
+
+@media (max-width: 1300px) {
+    .services-header-mane {
+        text-align: center;
+    }
 }
 
 .services-header-title {
@@ -299,6 +322,12 @@ body {
     max-width: 584px;
 }
 
+@media (max-width: 1300px) {
+    .services-header-title {
+        text-align: center;
+    }
+}
+
 .services-header-description {
     line-height: 1.5;
     margin-left: auto;
@@ -306,11 +335,32 @@ body {
     max-width: 656px;
 }
 
+@media (max-width: 1300px) {
+    .services-header-description {
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    .services-header-description {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+
 .services-column-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 50px;
+}
+
+@media (max-width: 1200px) {
+    .services-column-container {
+        justify-content: space-evenly;
+    }
 }
 
 .column-container {
@@ -329,14 +379,44 @@ body {
     position: relative;
 }
 
+@media (max-width: 1200px) {
+    .title-1 {
+        margin-top: 140px; 
+     }
+}
+
+@media (max-width: 806px) {
+    .title-1 {
+        margin-top: 140px; 
+     }    
+}
+
 .title-2 {
     margin-top: 474px;
     margin-left: 76px;
 }
 
+@media (max-width: 1200px) {
+    .title-2 {
+       margin-top: 306px; 
+    }
+}
+
+@media (max-width: 806px) {
+    .title-2 {
+        margin-top: 140px; 
+     }    
+}
+
 .title-3 {
     margin-top: 240px;
     margin-left: 124px;
+}
+
+@media (max-width: 1200px) {
+    .title-3 {
+        margin-top: 140px;
+    }
 }
 
 .title-1::before {
