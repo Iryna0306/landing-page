@@ -327,6 +327,13 @@ body {
     }
 }
 
+@media (max-width: 480px) {
+    .services-header-title {
+        font-size: 32px;
+        line-height: 1;
+    }
+}
+
 .services-header-description {
     line-height: 1.5;
     margin-left: auto;
