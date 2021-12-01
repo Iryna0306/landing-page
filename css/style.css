@@ -51,7 +51,7 @@ body {
 
 .container {
    max-width: 1414px; 
-   padding: 0px 14px;
+   padding: 0 14px;
    margin: 0 auto;
    box-sizing: content-box;
 }
@@ -76,11 +76,11 @@ body {
 
 .header-menu {
     display: flex;
-    margin: 0px 0px 0px 172px;
+    margin: 0 0 0 172px;
 }
 
 .menu {
-    padding: 6px 0px;
+    padding: 6px 0;
 }
 
 .menu-list {
@@ -90,7 +90,7 @@ body {
 }
 
 .menu-item:not(:last-child){
-    margin: 0px 72px 0px 0px;
+    margin: 0 72px 0 0;
 }
 
 
@@ -100,7 +100,7 @@ body {
 }
 
 .header-btn {
-    margin: 0px 0px 0px 284px;
+    margin: 0 0 0 284px;
 }
 
 .button {
@@ -115,7 +115,7 @@ body {
     color: #000;
 }
 .trial-button {
-    margin: 0px 0px 0px 34px;
+    margin: 0 0 0 34px;
     color: #fff;
     font-size: inherit;
     background-color: #01996D;
@@ -126,10 +126,10 @@ body {
 
 @media (max-width: 1279px) {
     .header-btn {
-        margin: 0px 0px 0px 100px;
+        margin: 0 0 0 100px;
     }
     .trial-button {
-        margin: 0px 0px 0px 14px;
+        margin: 0 0 0 14px;
     }
 }
 
@@ -139,10 +139,10 @@ body {
 
 @media (max-width: 1400px) {
     .header-menu {
-        margin: 0px 0px 0px 92px;
+        margin: 0 0 0 92px;
     }
     .menu-item:not(:last-child){
-        margin: 0px 32px 0px 0px;
+        margin: 0 32px 0 0;
     }
 }
 
@@ -175,7 +175,7 @@ body {
     }
 
 	.header-menu li:last-child {
-		margin-bottom: 0px;
+		margin-bottom: 0;
 	}
 
 	.button-span {
@@ -222,7 +222,7 @@ body {
     margin: auto;
     position: relative;
     z-index: 2;
-    padding: 174px 0px 400px 0px;
+    padding: 174px 0 400px 0;
 }
 
 @media (max-width: 1400px) {
@@ -261,7 +261,7 @@ body {
 
 .main-text {
     max-width: 420px;
-    margin: 30px 0px 18px 0px;
+    margin: 30px 0 18px 0;
     min-height: 120px;
     line-height: 1.5;
 }
@@ -273,7 +273,7 @@ body {
 
 /* -----PAGE-WRAPPER-SERVICES---------------------- */
 
-.page-wrapper-services {
+.services {
     max-width: 1414px;
     padding: 14px;
     margin: auto;
@@ -281,7 +281,7 @@ body {
 }
 
 @media (max-width: 1300px) {
-    .page-wrapper-services {
+    .services {
         margin-top: 70px;
     }
 
@@ -362,7 +362,7 @@ body {
     }
 }
 
-.services-column-container {
+.services-body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -370,12 +370,12 @@ body {
 }
 
 @media (max-width: 1200px) {
-    .services-column-container {
+    .services-body {
         justify-content: space-evenly;
     }
 }
 
-.column-container {
+.column {
     max-width: 390px;
     overflow: hidden;
 }
@@ -435,7 +435,7 @@ body {
 .title-1::before {
     position: absolute;
     content: '';
-    background: url(/img/01.svg) no-repeat;
+    background: url(../img/01.svg) no-repeat;
     width: 154px;
     height: 224px;
     margin-left: -88px;
@@ -445,7 +445,7 @@ body {
 .title-2::before {
     position: absolute;
     content: '';
-    background: url(/img/02.svg) no-repeat;
+    background: url(../img/02.svg) no-repeat;
     width: 158px;
     height: 224px;
     margin-left: -76px;
@@ -455,7 +455,7 @@ body {
 .title-3::before {
     position: absolute;
     content: '';
-    background: url(/img/03.svg) no-repeat;
+    background: url(../img/03.svg) no-repeat;
     width: 158px;
     height: 224px;
     margin-left: -124px;
@@ -476,11 +476,11 @@ body {
 .monitor-image::before {
     position: absolute;
     content: '';
-    background: url(/img/monitor.svg) no-repeat;
+    background: url(../img/monitor.svg) no-repeat;
     width: 186px;
     height: 156px;
     margin-left: 206px;
     margin-top: 224px;
     z-index: 2;
-    border-radius: 4px 0px 4px 0px;
+    border-radius: 4px 0 4px 0;
 }
