@@ -380,56 +380,48 @@ body {
     overflow: hidden;
 }
 
+.column-top-1 {
+    margin-top: 186px;
+}
+
+.column-top-2 {
+    margin-top: 474px;
+}
+
+.column-top-3 {
+    margin-top: 240px;
+}
+
 .column-title {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     font-weight: 700;
     line-height: 1.5;
     color: #000;
-    margin-top: 186px;
+    /* margin-top: 186px; */
     margin-left: 88px;
     margin-bottom: 54px;
     position: relative;
 }
 
 @media (max-width: 1200px) {
-    .title-1 {
+    .colunm-top {
         margin-top: 140px; 
      }
 }
 
 @media (max-width: 806px) {
-    .title-1 {
+    .column-top {
         margin-top: 140px; 
      }    
 }
 
 .title-2 {
-    margin-top: 474px;
     margin-left: 76px;
 }
 
-@media (max-width: 1200px) {
-    .title-2 {
-       margin-top: 306px; 
-    }
-}
-
-@media (max-width: 806px) {
-    .title-2 {
-        margin-top: 140px; 
-     }    
-}
-
 .title-3 {
-    margin-top: 240px;
     margin-left: 124px;
-}
-
-@media (max-width: 1200px) {
-    .title-3 {
-        margin-top: 140px;
-    }
 }
 
 .title-1::before {
