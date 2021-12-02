@@ -277,12 +277,12 @@ body {
     max-width: 1414px;
     padding: 0 14px;
     margin: auto;
-    margin-top: 150px;
+    padding: 150px 0 0 0;
 }
 
 @media (max-width: 1300px) {
     .services {
-        margin-top: 70px;
+        padding: 70px 0 0 0;
     }
 
 }
@@ -303,7 +303,7 @@ body {
 
 @media (max-width: 480px) {
     .services-header-container {
-        margin-top: 20px;
+        padding: 20px 0 0 0;
     }
 }
 
@@ -343,7 +343,7 @@ body {
 .services-header-description {
     line-height: 1.5;
     margin-left: auto;
-    margin-top: 24px;
+    padding: 24px 0 0 0;
     max-width: 656px;
 }
 
@@ -398,21 +398,23 @@ body {
     font-weight: 700;
     line-height: 1.5;
     color: #000;
-    /* margin-top: 186px; */
     margin-left: 88px;
     margin-bottom: 54px;
     position: relative;
 }
 
 @media (max-width: 1200px) {
-    .colunm-top {
-        margin-top: 140px; 
-     }
+    .column-top-2 {
+        padding: 332px 0 0 0;
+    }
+    .column-top-3 {
+        padding: 140px 0 0 0;
+    }
 }
 
 @media (max-width: 806px) {
     .column-top {
-        margin-top: 140px; 
+        padding: 140px 0 0 0; 
      }    
 }
 
