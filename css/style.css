@@ -251,6 +251,7 @@ body {
     line-height: 1.13;
     color: #01996D;
     max-width: 440px;
+    margin-bottom: 30px;
 }
 
 @media (max-width: 480px) {
@@ -261,7 +262,7 @@ body {
 
 .main-text {
     max-width: 420px;
-    margin: 30px 0 18px 0;
+    margin: 0 0 18px 0;
     min-height: 120px;
     line-height: 1.5;
 }
@@ -275,14 +276,13 @@ body {
 
 .services {
     max-width: 1414px;
-    padding: 0 14px;
     margin: auto;
-    padding: 150px 0 0 0;
+    padding: 150px 14px 0 14px;
 }
 
 @media (max-width: 1300px) {
     .services {
-        padding: 70px 0 0 0;
+        padding: 70px 14px 0 14px;
     }
 
 }
@@ -403,7 +403,7 @@ body {
     position: relative;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1170px) {
     .column-top-2 {
         padding: 332px 0 0 0;
     }
@@ -412,7 +412,7 @@ body {
     }
 }
 
-@media (max-width: 806px) {
+@media (max-width: 780px) {
     .column-top {
         padding: 140px 0 0 0; 
      }    
