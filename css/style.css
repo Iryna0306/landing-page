@@ -275,7 +275,7 @@ body {
 
 .services {
     max-width: 1414px;
-    padding: 14px;
+    padding: 0 14px;
     margin: auto;
     margin-top: 150px;
 }
@@ -381,15 +381,15 @@ body {
 }
 
 .column-top-1 {
-    margin-top: 186px;
+    padding: 186px 0 0 0;
 }
 
 .column-top-2 {
-    margin-top: 474px;
+    padding: 474px 0 0 0;
 }
 
 .column-top-3 {
-    margin-top: 240px;
+    padding: 240px 0 0 0;
 }
 
 .column-title {
