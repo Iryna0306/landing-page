@@ -559,7 +559,11 @@ body {
 }
 
 .custom-container-list {
-    list-style-type: disc;
+    
+}
+
+.custom-container-item::after {
+
 }
 
 .about-us-text{
