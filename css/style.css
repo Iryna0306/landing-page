@@ -520,7 +520,6 @@ body {
 /* -----ABOUT-US---------------------------------------- */
 
 .about-us {
-    
     height: 936px;
 }
 
@@ -646,4 +645,39 @@ body {
     margin: 0;
     max-width: 530px;
     padding-top: 0;
+}
+
+/* -----FOOTER------------------------------------------------------------------- */
+
+.footer {
+    background-color: #245852;
+    height: 654px;
+    color: #ffffff;
+}
+
+.footer-container {
+    max-width: 1414px;
+    margin: auto;
+}
+
+.footer-title {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 0.55;
+    margin-bottom: 92px;
+    padding-top: 108px;
+}
+
+.footer-item {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 0.3;
+}
+
+.footer-item:not(:last-child) {
+    margin-bottom: 84px;
+}
+
+.footer-link {
+    color: #ffffff;
 }
