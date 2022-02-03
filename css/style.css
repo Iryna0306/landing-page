@@ -114,7 +114,9 @@ body {
     display: block;
     line-height: 1.2;
     color: #000;
+    cursor: pointer;
 }
+
 .trial-button {
     margin: 0 0 0 34px;
     color: #fff;
@@ -477,9 +479,17 @@ body {
     border-radius: 4px 0 4px 0;
 } */
 
+/* ------CONTAINER-VIDEO----------------------------------------------- */
+
 .container-video {
     height: 922px;
     background-color: #245852;
+}
+
+@media (max-width: 1500px) {
+    .container-video {
+        height: 622px;
+    }
 }
 
 .video-block-size {
@@ -488,6 +498,12 @@ body {
 
 .holder-video {
     padding-top: 230px;
+}
+
+@media (max-width: 1500px) {
+    .holder-video {
+        padding-top: 70px;
+    }
 }
 
 .header-title{
@@ -515,6 +531,12 @@ body {
 
 .video-content {
     margin-left: auto;
+}
+
+@media (max-width: 1500px) {
+    .video-content {
+        width: 800px;
+    }
 }
 
 /* -----ABOUT-US---------------------------------------- */
