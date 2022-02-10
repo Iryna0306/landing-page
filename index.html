@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Landing Page</title>
@@ -149,18 +150,22 @@
         </main>
         <footer class="footer">
             <div class="footer-container"> 
-                <h3 class="footer-title">Alivio</h3>
+                <h3 class="footer-title" data-aos="fade-right">Alivio</h3>
                 <ul class="footer-list">
-                    <li class="footer-item">
+                    <li class="footer-item" data-aos="fade-right" data-aos-delay="100"
+                    >
                         <a href="#" class="footer-link">Why Alivio</a>
                     </li>
-                    <li class="footer-item">
+                    <li class="footer-item" data-aos="fade-right" data-aos-delay="200"
+                    >
                         <a href="#" class="footer-link">Solutions</a>
                     </li>
-                    <li class="footer-item">
+                    <li class="footer-item" data-aos="fade-right" data-aos-delay="300"
+                    >
                         <a href="#" class="footer-link">Community</a>
                     </li>
-                    <li class="footer-item">
+                    <li class="footer-item" data-aos="fade-right" data-aos-delay="400"
+                    >
                         <a href="#" class="footer-link">Pricing</a>
                     </li>  
                 </ul>
@@ -185,6 +190,10 @@
             $('.overlay').fadeOut();
             });
         });
-    </script> 
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
