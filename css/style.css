@@ -218,6 +218,16 @@ body {
 .main-block-container {
     background: url(../img/BG.png) no-repeat center;
     background-size: cover;
+    animation: opacity 0.8s ease-in 400ms forwards;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .main-block-body {
