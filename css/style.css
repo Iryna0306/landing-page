@@ -179,10 +179,10 @@ body {
     }
 
 	.header-menu li:last-child {
-		margin-bottom: 0;
+	    margin-bottom: 0;
 	}
 
-	.button-span {
+    .button-span {
         display: block;
         margin-top: 40px;
         margin-bottom: 6px;
@@ -195,11 +195,11 @@ body {
         margin-left: -100px;
     }
 
-	.hamb {
+    .hamb {
         display: block;
         font-size: 35px;
         margin-left: auto;
-    }
+        }
 }
 
 /* -----MAIN---------------------------------------- */
