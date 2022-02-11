@@ -54,10 +54,10 @@ body {
 }
 
 .container {
-   max-width: 1414px; 
-   padding: 0 14px;
-   margin: 0 auto;
-   box-sizing: content-box;
+    max-width: 1414px; 
+    padding: 0 14px;
+    margin: 0 auto;
+    box-sizing: content-box;
 }
 
 /* -----HEADER-------------------------------- */
@@ -195,9 +195,9 @@ body {
     }
 
 	.hamb {
-	display: block;
-	font-size: 35px;
-    margin-left: auto;
+        display: block;
+        font-size: 35px;
+        margin-left: auto;
     }
 }
 
