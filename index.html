@@ -16,6 +16,9 @@
                 <a href="#" class="header-logo">
                     <img src="img/Logo.svg" alt="Alivio">
                 </a>
+                <div class="header-burger">
+                    <span></span>
+                </div>
                 <nav class="header-menu menu d-flex">
                     <ul class="menu-list d-flex">
                         <li class="menu-item">
@@ -36,8 +39,8 @@
                         <button class="trial-button">Start Trial</button>
                     </a>
                 </nav>
-                <span class="hamb">☰</span>
-                <span class="overlay"></span>
+                <!-- <span class="hamb">☰</span>
+                <span class="overlay"></span> -->
             </div>
         </header>
         <main class="page">
@@ -173,24 +176,7 @@
         </footer>
     </div> 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
-    <script>
-        $(function(){
-            $('.hamb').click(function(){
-                $('.header-menu').animate({
-                right: 0
-                });
-            $(this).hide();
-            $('.overlay').fadeIn();
-            });
-            $('.header-menu span, .overlay').click(function(){
-                $('.header-menu').animate({
-                right: -250
-            });
-            $('.hamb').show();
-            $('.overlay').fadeOut();
-            });
-        });
-    </script>
+    <script src="js/script.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
