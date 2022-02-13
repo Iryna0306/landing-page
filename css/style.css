@@ -107,7 +107,7 @@ body {
 }
 
 .header-btn {
-    margin: 0 0 0 284px;
+    padding: 0 0 0 284px;
 }
 
 .button {
@@ -215,7 +215,7 @@ body {
         flex-direction: column;
         align-items:flex-start;
         font-size: 24px;
-        padding: 0 0 0 10px;
+        padding: 0 0 40px 10px;
     }
 
     .menu-list li:not(:last-child) {
@@ -229,11 +229,8 @@ body {
 }
 
 @media (max-width: 1279px) {
-    /* .header-btn {
-        margin: 0 0 0 100px;
-    } */
     .trial-button {
-        margin: 0 0 0 14px;
+        margin: 0;
     }
 }
 
@@ -285,9 +282,7 @@ body {
 
     .button-span {
         display: block;
-        margin-top: 40px;
-        margin-bottom: 6px;
-        margin-left: -26px;
+        padding: 0 40px 10px 0;
         font-size: 20px;
         color: #fff;
 	}
