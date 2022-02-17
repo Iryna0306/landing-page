@@ -37,7 +37,7 @@ body {
     height: 100%;
     line-height: 1;
     font-size: 20px;
-    color: #424242;
+    color: rgb(95, 44, 44);
     font-family: Lato;
 }
 
@@ -166,16 +166,6 @@ body {
         font-size: 20px;
         color: #fff;
 	}
-
-    /* .header-menu button {
-        margin-left: -100px;
-    } */
-
-    .hamb {
-        display: block;
-        font-size: 35px;
-        margin-left: auto;
-    }
 }
 
 @media (max-width:1210px) {
